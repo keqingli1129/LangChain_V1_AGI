@@ -112,7 +112,7 @@ https://youtu.be/2Xf1LPR6mgY
 https://www.bilibili.com/video/BV1dqwVzHESS/                
 对应文件夹:13_XXX
 
-15. 【EP14_Playwright】ReAct Agent API 后端接口实战：真实浏览器交互完整闭环与测试拆解。访问动态网页、提取文本余链接、点击可见元素
+15. 【EP14_Playwright】ReAct Agent API 后端接口实战：真实浏览器交互完整闭环与测试拆解。访问动态网页、提取文本余链接、点击可见元素  
 https://youtu.be/Yw7Lx2nAdWQ    
 https://www.bilibili.com/video/BV14LQPBJEti/    
 对应文件夹:14_XXX    
