@@ -30,12 +30,12 @@ B站视频链接：[https://www.bilibili.com/video/BV1svQGBBERQ/](https://www.bi
 YouTube视频链接：[https://www.youtube.com/playlist?list=PL8zBXedQ0ufmtUvaHsSxNqZMwgb3hxsJB](https://www.youtube.com/playlist?list=PL8zBXedQ0ufmtUvaHsSxNqZMwgb3hxsJB)  
 GitHub地址：[https://github.com/NanGePlus/OpenClawTutorial](https://github.com/NanGePlus/OpenClawTutorial)    
 Gitee地址：[https://gitee.com/NanGePlus/OpenClawTutorial](https://gitee.com/NanGePlus/OpenClawTutorial)                 
-- **Cursor系列**：专为提升开发生产力而设计的一款AI提效工具
-B站视频链接：[https://www.bilibili.com/video/BV1HEABzvEdo/](https://www.bilibili.com/video/BV1HEABzvEdo/)
-YouTube视频链接：[https://www.youtube.com/playlist?list=PL8zBXedQ0ufkcPJWHVKFTFzS8yNCkfM5b](https://www.youtube.com/playlist?list=PL8zBXedQ0ufkcPJWHVKFTFzS8yNCkfM5b)
-- **更多开源项目**
-GitHub地址：[https://github.com/NanGePlus](https://github.com/NanGePlus)
-Gitee地址：[https://gitee.com/NanGePlus](https://gitee.com/NanGePlus)
+- **Cursor系列**：专为提升开发生产力而设计的一款AI提效工具   
+B站视频链接：[https://www.bilibili.com/video/BV1HEABzvEdo/](https://www.bilibili.com/video/BV1HEABzvEdo/)     
+YouTube视频链接：[https://www.youtube.com/playlist?list=PL8zBXedQ0ufkcPJWHVKFTFzS8yNCkfM5b](https://www.youtube.com/playlist?list=PL8zBXedQ0ufkcPJWHVKFTFzS8yNCkfM5b)     
+- **更多开源项目**        
+GitHub地址：[https://github.com/NanGePlus](https://github.com/NanGePlus)        
+Gitee地址：[https://gitee.com/NanGePlus](https://gitee.com/NanGePlus)     
 
 ---
 
