@@ -4,7 +4,7 @@ import logging
 # 该处理器是 RotatingFileHandler 的并发安全版本，支持多进程/多线程安全写同一个日志文件并按大小滚动切分
 from concurrent_log_handler import ConcurrentRotatingFileHandler
 # 从当前包中导入 Config 配置类，用于获取日志文件路径、大小和备份数量等配置
-from .config import Config
+from .config import DataConfig
 
 
 
@@ -46,11 +46,11 @@ class LoggerManager:
         # 创建支持并发写入且按大小滚动的文件日志处理器
         handler = ConcurrentRotatingFileHandler(
             # 指定日志文件路径，从配置类中读取
-            Config.LOG_FILE,
+            DataConfig().log_file,
             # 每个日志文件允许的最大字节数，到达上限会触发日志滚动
-            maxBytes=Config.MAX_BYTES,
+            maxBytes=DataConfig().max_bytes,
             # 最多保留的历史备份日志文件数量
-            backupCount=Config.BACKUP_COUNT
+            backupCount=DataConfig().backup_count
         )
         # 设置该处理器的日志级别为 DEBUG
         handler.setLevel(logging.DEBUG)
