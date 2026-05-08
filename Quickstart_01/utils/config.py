@@ -1,5 +1,6 @@
 # 导入操作系统模块，用于处理文件路径、环境变量等与操作系统相关的功能
 import os
+from dataclasses import dataclass
 
 
 
@@ -24,3 +25,20 @@ class Config:
     # - "oneapi"：通过 OneAPI 方案调用其支持的各类模型
     # - "ollama"：调用本地部署的开源大模型（如通过 Ollama 服务）
     LLM_TYPE = "openai"
+
+
+@dataclass
+class DataConfig:
+    """Dataclass-based configuration alternative to the legacy `Config` class.
+
+    Creates the log directory on initialization (same behavior as `Config`).
+    """
+    log_file: str = "logfile/app.log"
+    max_bytes: int = 5 * 1024 * 1024
+    backup_count: int = 3
+    llm_type: str = "openai"
+
+    def __post_init__(self):
+        log_dir = os.path.dirname(self.log_file)
+        if log_dir and not os.path.exists(log_dir):
+            os.makedirs(log_dir, exist_ok=True)
